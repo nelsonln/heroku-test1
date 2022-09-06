@@ -1,3 +1,15 @@
+npm i react-bootstrap bootstrap @mantine/core @mantine/hooks @mantine/form @mantine/dates dayjs @mantine/notifications @mantine/prism @mantine/rte @mantine/dropzone @mantine/carousel embla-carousel-react @mantine/spotlight @mantine/modals @mantine/nprogress @emotion/react react-bootstrap-table2-paginator react-bootstrap-table-next react-router-dom@6 @tabler/icons recharts
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
