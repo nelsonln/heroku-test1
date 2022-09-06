@@ -1,0 +1,54 @@
+.line{
+  background: linear-gradient(to top left, #2979FF calc(0% - 1px), #2979FF , #fff calc(55% + 1px));
+}
+
+.msg{
+  margin: 10px 0px 0px 20px;
+  color: white
+}
+
+.msgDiv{
+  box-shadow: 0 0 15px 10px #2979FF;
+}
+
+.copyright{
+  margin: 0px 0px 10px 0px;
+  color: white;
+  font-size: 15px;
+  text-align: right;
+  border-top-width: 1px;
+  border-style: double hidden hidden hidden;
+}
+
+.footer{
+  background-color: #2979FF;
+  height: 240px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  /*box-shadow: 0 0 15px 10px #2979FF;*/
+}
+
+.footerLink{
+  color: white;
+  text-decoration: none;
+}
+
+.footerLink:hover {
+  color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*            <Row>
+              <div className="line"><img className="msg" src={require ('./img/footer-icon.png')} width="100" height="25" alt="Account Book"/></div>
+            </Row>*/

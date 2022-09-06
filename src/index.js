@@ -3,11 +3,26 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Routes, Route, BrowserRouter} from 'react-router-dom';
+import Add from './Add';
+import Details from './action/details';
+import WrongPage from './wrongPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<App />} />
+            <Route path="details" element={<Details />} />
+            <Route path="add" element={<Add />} />
+            <Route
+              path="*"
+              element={<WrongPage />}
+            />
+        </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
